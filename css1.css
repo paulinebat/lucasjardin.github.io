@@ -10,6 +10,10 @@ body {
   .logo img{
     border-radius: 10px;
   }
+img{
+    max-width: 100%;
+    height: auto;
+  }
   #nav{
     font-size: 18px;
     font-style: normal;
