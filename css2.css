@@ -232,3 +232,30 @@ nav ul li a{
       .faq-question:hover {
         text-decoration: none;
       }
+      @media all and (max-width: 740px){
+        .form{
+            flex-direction: column;
+            align-items: center;
+        }
+        .coordonnées{
+            margin: auto;
+        }
+        form{
+            max-width: 120px;
+            max-height: 700px;
+        }
+        #formulaire5 textarea {
+            max-width: 250px;
+          }
+          .faq-section{
+            min-width: 100px;
+          }
+          .faq-question{
+            min-width: 300px;
+            margin-bottom: 20px;
+          }
+          .faq-item{
+            margin: 0;
+            justify-content: center;
+          }
+      }
