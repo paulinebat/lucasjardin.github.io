@@ -9,10 +9,7 @@ body {
   }
   .logo img{
     border-radius: 10px;
-  }
-  img{
-    max-width: 100%;
-    height: auto;
+	  width: 100px;
   }
   #nav{
     font-size: 18px;
