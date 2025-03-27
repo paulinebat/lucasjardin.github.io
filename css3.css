@@ -23,7 +23,6 @@ body {
 }
 nav{
     background-color: rgb(54, 54, 54);
-    border-radius: 10px;
 }
 nav ul li
     {
@@ -96,6 +95,7 @@ nav ul li a{
         text-align: center;
         margin-left: 100px;
         margin-right: 100px;
+        margin-bottom: 50px;
         margin-top: 50px;
         font-style: normal;
         font-weight: normal;
@@ -103,3 +103,78 @@ nav ul li a{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-top: 20px;
     }
+
+    .text2{
+        font-size: 25px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        text-decoration: underline #45a838 5px;
+        margin-bottom: 100px;
+    }
+    .icons {
+      text-align: center;
+    }
+        
+      .material-symbols-rounded{
+        padding: 20px;
+        background-color: #1a4b13;
+        color: rgb(255, 255, 255);
+        border-radius: 100px;
+      }
+      .material-icons-round{ 
+        padding: 20px;
+        background-color: #1a4b13;
+        color: rgb(255, 255, 255);
+        border-radius: 100px;
+      }
+      .icons1{
+        justify-content: center;
+        display:flex;
+        position: relative; /* Nécessaire pour positionner le pseudo-élément */
+        margin: 10px;
+        margin-bottom: 40px;
+      }
+      .icons1 h5{
+        font-size: 20px;
+      }
+      .icons1 p{
+        font-size: 19px;
+      }
+      
+      .icons2{
+        justify-content: center;
+        display:flex;
+        position: relative; /* Nécessaire pour positionner le pseudo-élément */
+        margin-left: 50px;
+        margin-right: 30px;
+      }
+      .icons2 h5{
+        font-size: 20px;
+      }
+      .icons2 p{
+        font-size: 19px;
+      }   
+      .taille{
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .irrigation{
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      
+      @media all and (max-width: 740px){
+        .icons::before {
+            visibility: hidden;
+        }
+        .icons1{
+          flex-direction: column;
+        }
+        .icons2{
+            flex-direction: column;
+        }
+      }
+      
+      
+   
