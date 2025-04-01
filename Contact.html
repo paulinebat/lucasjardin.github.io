@@ -4,14 +4,63 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css2.css" />
+        <link rel="icon" href="Images/logo.png" type="Images">
+        <script src="https://kit.fontawesome.com/38d53f33fa.js" defer></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <title>Lucas Jardin - Contact</title>
         <meta name="description" content="Découvrez Lucas Jardins, experts en jardinage et paysagisme à Saint-Paul. Conception de jardins, aménagement paysager, entretien régulier, et plus. Transformez votre espace vert en un paradis ! Obtenez un devis gratuit dès aujourd'hui.">
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="Images/logo.webp?v=1.0" alt="logo de Lucas Jardin">
+              <img src="Images/logo.webp?v=1.0" alt="logo de Lucas Jardin">
             </div>
+            <div class="ligne">
+              <input type="checkbox" id="toggle-accordion" class="hidden-checkbox">
+              <label for="toggle-accordion" class="material-icons-round" style="color: #45a838;">
+                  segment
+               </label>
+              <nav>
+                  <div id="nav1" class="accordion-content1">
+                      <ul>
+                          <li> <a href="index.html" class="underline"> <b>ACCUEIL</b> </a> </li>
+                          <hr>
+                          <li> 
+                              <div class="underline2">
+                                  <a href="#" id="nos-services" class="underline"> <b>NOS SERVICES</b> </a>
+                              <div class="accordion-content2">
+                                  <ul>
+                                      <li>
+                                          <a href="aménagement.html"> Aménagement paysager</a>
+                                      </li>
+                                  </ul>
+                                  <hr>
+                                  <p>Entretien de jardins</p>
+                                  <hr>
+                                  <p>Plantation d'arbres et d'arbustes</p>
+                                  <hr>
+                                  <p>Éclairage extérieur</p>
+                                  <hr>
+                                  <ul>
+                                      <li>
+                                          <a href="Bassin et fontaine.html">Création de bassins et de fontaines</a>
+                                      </li>
+                                  </ul>
+                                  <hr>
+                                  <p>Toitures végétalisées</p>
+                              </div>
+                              </div>
+                          </li>
+                          <hr>
+                          <li> <a href="Contact.html" class="underline"> <b>CONTACT</b> </a> </li>
+                          <hr>
+                          <li> <a href="Contact.html#faq-section" class="underline"> <b>FAQ</b> </a> </li>
+                          <hr>
+                          <li> <a href="#" class="underline"> <b>FICHE DE L'ETUDIANT</b> </a> </li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
             <nav>
                 <div id="nav">
                     <ul>
@@ -20,30 +69,38 @@
                             <div class="underline2">
                                 <a href="#" id="nos-services" class="underline"> <b>NOS SERVICES</b> </a>
                             <div class="accordion-content">
-                                <p>Conception de jardins</p>
+                                <ul>
+                                  <li>
+                                      <a href="aménagement.html"> Aménagement paysager</a>
+                                  </li>
+                              </ul>
                                 <hr>
-                                <p>Aménagement paysager</p>
-                                <hr>
-                                <p>Entretien de jardins</p>
+                                <ul>
+                                  <li>
+                                      <a href="entretien.html"> Entretien de jardins</a>
+                                  </li>
+                              </ul>
                                 <hr>
                                 <p>Plantation d'arbres et d'arbustes</p>
                                 <hr>
-                                <p>Installation de systèmes d'irrigation</p>
-                                <hr>
                                 <p>Éclairage extérieur</p>
                                 <hr>
-                                <p>Création de bassins et de fontaines</p>
-                                <hr>
-                                <p>Services de jardinage biologique</p>
+                                <ul>
+                                  <li>
+                                      <a href="Bassin et fontaine.html"> Création de bassins et de fontaines</a>
+                                  </li>
+                              </ul>
                                 <hr>
                                 <p>Toitures végétalisées</p>
-                                <hr>
-                                <p>Consultation et conseil</p>
                             </div>
                             </div>
                         </li>
                         <span style="border-right: 1px solid #fff; margin: 0 10px;"></span>
-                        <li> <a href="#Contact" class="underline"> <b>CONTACT</b> </a> </li>
+                        <li> <a href="#Contact" class="underline" id="host"> <b>CONTACT</b> </a> </li>
+                        <span style="border-right: 1px solid #fff; margin: 0 10px;"></span>
+                        <li> <a href="Contact.html#faq-section" class="underline"> <b>FAQ</b> </a> </li>
+                        <span style="border-right: 1px solid #fff; margin: 0 10px;"></span>
+                        <li> <a href="#" class="underline"> <b>FICHE DE L'ETUDIANT</b> </a> </li>
                     </ul>
                 </div>
             </nav>
@@ -74,14 +131,14 @@
                     </div>
                     <div id="formulaire3">
                         <label for="Phone">Téléphone</label><br>
-                        <input type="tel"" id="téléphone" name="téléphone">
+                        <input type="tel" id="téléphone" name="téléphone">
                       </div>
                       <div id="formulaire4">
                         <label for="Sujet">Sujet</label><br>
-                        <input type="text"" id="sujet" name="sujet">
+                        <input type="text" id="sujet" name="sujet">
                       </div>
                       <div id="formulaire5">
-                        <label for="Message"">Message</label><br>
+                        <label for="Message">Message</label><br>
                         <textarea id="message" name="message" rows="4" cols="50"></textarea>
                       </div>
                     <div id="formulaire6">
@@ -89,15 +146,26 @@
                     </div>
                     </div>
                   </form>
-                <div class="coordonnées">
+                  <div class="colonne">
+                    <div class="coordonnées">
+                      <h2>
+                          Nos coordonnées
+                      </h2>
+                      <p>Email : contact@lucasjardin.fr</p>
+                      <p>Téléphone : +33 1 23 45 67 89</p>
+                      <p>Adresse : 10 rue des Orchidées, 06570 Saint Paul, France</p>
+                  </div>
+                  <div class="horaire">
                     <h2>
-                        Nos coordonnées
-                    </h2>
-                    <p>Email : contact@lucasjardin.fr</p>
-                    <p>Téléphone : +33 1 23 45 67 89</p>
-                    <p>Adresse : 10 rue des Orchidées, 06570 Saint Paul, France</p>
-                </div>
-            </div>
+                      Nos Horaires d'Ouvertures
+                  </h2>
+                  <p>Du lundi au vendredi : 8h - 18h</p>
+                  <p>Samedi : 9h - 16h</p>
+                  <p>Dimanche : Fermé</p>
+                  <p>Nous sommes également fermés les jours fériés.</p>
+                  </div>
+              </div>
+                  </div>
         </aside>
         <div class="faq-section" id="faq-section">
           <h2>FAQ</h2>
@@ -109,7 +177,7 @@
             "faq": [
               {
                 "question": "Où êtes-vous situés et quels sont vos horaires d'ouverture ?",
-                "answer": "Nous sommes situés à Saint-Paul, à l'adresse suivante : 10 rue des Orchidées, 06570 Saint Paul, France. Nos horaires d'ouverture sont du lundi au vendredi de 8h00 à 18h00, et le samedi de 9h00 à 16h00. Nous sommes fermés le dimanche."
+                "answer": "Nous sommes situés à Saint-Paul, à l'adresse suivante : 10 rue des Orchidées, 06570 Saint Paul, France. Nos horaires d'ouverture sont du lundi au vendredi de 8h00 à 18h00, et le samedi de 9h00 à 16h00. Nous sommes fermés le dimanche et les jours fériés."
               },
               {
                 "question": "Comment puis-je obtenir un devis pour vos services ?",
@@ -164,5 +232,13 @@
           // Appel de la fonction pour afficher la FAQ
           displayFAQ(faqData);
         </script>
+        <footer>
+          <div class="accueil">
+            <ul>
+                <a href="index.html"><b>Retourner à la page d'accueil</b></a>
+            </ul>
+            <i class="fa-solid fa-arrow-up-right-from-square specific-icon"></i>
+        </div>
+        </footer>
     </body>
 </html>
