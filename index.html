@@ -3,53 +3,109 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Découvrez Lucas Jardins, experts en jardinage et paysagisme à Saint-Paul. Conception de jardins, aménagement paysager, entretien régulier, et plus. Transformez votre espace vert en un paradis ! Obtenez un devis gratuit dès aujourd'hui.">
+        <meta name="keywords" content="jardin, services, entretien, aménagement paysager, toiture végétalisée, éclairage extérieur, bassin, fontaine, plantation, arbre, arbuste">
+        <meta property="og:title" content="Services de jardinage exceptionnels">
+        <meta property="og:description" content="Découvrez nos solutions innovantes pour transformer votre jardin : Entretien, aménagement, toiture, bassin, plantation...">
+
         <link rel="stylesheet" href="css1.css" />
+        <link rel="icon" href="Images/logo.png" type="Images">
         <script src="https://kit.fontawesome.com/38d53f33fa.js" defer></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <link rel="preload" as="image" href="Images/img (36).webp">
         <title>Lucas Jardin - Accueil</title>
-        <meta name="description" content="Découvrez Lucas Jardins, experts en jardinage et paysagisme à Saint-Paul. Conception de jardins, aménagement paysager, entretien régulier, et plus. Transformez votre espace vert en un paradis ! Obtenez un devis gratuit dès aujourd'hui.">
-    </head>
+        </head>
     <body>
         <header>
             <div class="logo"> 
                 <img src="Images/logo.webp?v=1.0" alt="logo de Lucas Jardin">
             </div>
+            <div class="ligne">
+                <input type="checkbox" id="toggle-accordion" class="hidden-checkbox">
+                <label for="toggle-accordion" class="material-icons-round" style="color: #45a838;">
+                    segment
+                 </label>
+                <nav>
+                    <div id="nav1" class="accordion-content1">
+                        <ul>
+                            <li> <a href="index.html" class="underline"> <b>ACCUEIL</b> </a> </li>
+                            <hr>
+                            <li> 
+                                <div class="underline2">
+                                    <a href="#" id="nos-services" class="underline"> <b>NOS SERVICES</b> </a>
+                                <div class="accordion-content2">
+                                    <ul>
+                                        <li>
+                                            <a href="aménagement.html"> Aménagement paysager</a>
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <p>Entretien de jardins</p>
+                                    <hr>
+                                    <p>Plantation d'arbres et d'arbustes</p>
+                                    <hr>
+                                    <p>Éclairage extérieur</p>
+                                    <hr>
+                                    <ul>
+                                        <li>
+                                            <a href="Bassin et fontaine.html">Création de bassins et de fontaines</a>
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <p>Toitures végétalisées</p>
+                                </div>
+                                </div>
+                            </li>
+                            <hr>
+                            <li> <a href="Contact.html" class="underline"> <b>CONTACT</b> </a> </li>
+                            <hr>
+                            <li> <a href="Contact.html#faq-section" class="underline"> <b>FAQ</b> </a> </li>
+                            <hr>
+                            <li> <a href="#" class="underline"> <b>FICHE DE L'ETUDIANT</b> </a> </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
             <nav>
                 <div id="nav">
                     <ul>
-                        <li> <a href="#" class="underline"> <b>ACCUEIL</b> </a> </li><span style="border-left: 1px solid #fff; margin: 0 10px;"></span>
+                        <li> <a href="#" class="underline" id="host"> <b>ACCUEIL</b> </a> </li><span style="border-left: 1px solid #fff; margin: 0 10px;"></span>
                         <li> 
                             <div class="underline2">
                                 <a href="#" id="nos-services" class="underline"> <b>NOS SERVICES</b> </a>
                             <div class="accordion-content">
-                                <p>Conception de jardins</p>
-                                <hr>
-                                <p>Aménagement paysager</p>
+                                <ul>
+                                    <li>
+                                        <a href="aménagement.html" class="host"> Aménagement paysager</a>
+                                    </li>
+                                </ul>
                                 <hr>
                                 <ul>
                                     <li>
-                                        <a href="entretien.html"> Entretien de jardins</a>
+                                        <a href="entretien.html" class="host"> Entretien de jardins</a>
                                     </li>
                                 </ul>
                                 <hr>
                                 <p>Plantation d'arbres et d'arbustes</p>
                                 <hr>
-                                <p>Installation de systèmes d'irrigation</p>
-                                <hr>
                                 <p>Éclairage extérieur</p>
                                 <hr>
-                                <p>Création de bassins et de fontaines</p>
-                                <hr>
-                                <p>Services de jardinage biologique</p>
+                                <ul>
+                                    <li>
+                                        <a href="Bassin et fontaine.html" class="host"> Création de bassins et de fontaines</a>
+                                    </li>
+                                </ul>
                                 <hr>
                                 <p>Toitures végétalisées</p>
-                                <hr>
-                                <p>Consultation et conseil</p>
                             </div>
                             </div>
                         </li>
                         <span style="border-right: 1px solid #fff; margin: 0 10px;"></span>
                         <li> <a href="Contact.html" class="underline"> <b>CONTACT</b> </a> </li>
+                        <span style="border-right: 1px solid #fff; margin: 0 10px;"></span>
+                        <li> <a href="Contact.html#faq-section" class="underline"> <b>FAQ</b> </a> </li>
+                        <span style="border-right: 1px solid #fff; margin: 0 10px;"></span>
+                        <li> <a href="#" class="underline"> <b>FICHE DE L'ETUDIANT</b> </a> </li>
                     </ul>
                 </div>
             </nav>
@@ -70,7 +126,7 @@
             </div>
             <h3>
                 Chez Lucas Jardins, nous transformons vos espaces extérieurs en véritables paradis verts. <br>
-                Que vous ayez besoin d'une conception de jardin sur mesure, d'un aménagement paysager complet 
+                Que vous ayez besoin de toitures végétalisées, d'un aménagement paysager complet 
                 ou d'un entretien régulier, notre équipe de professionnels qualifiés est là pour réaliser vos 
                 plus grands rêves.
             </h3>
@@ -92,10 +148,10 @@
                         <div class="overlay"></div>
                     </div>
                     <div class="conception">
-                        <img src="Images/conception.webp?v=1.0" alt="conception" 
-                            srcset="Images/conception.webp?v=1.0 2x, Images/conception.webp?v=1.0 3x"
+                        <img src="Images/bassin.webp" alt="bassin" 
+                            srcset="Images/bassin.webp?v=1.0 2x, Images/bassin.webp?v=1.0 3x"
                              width="300" height="300">
-                        <div class="text-overlay">Conception de Jardins</div>
+                        <div class="text-overlay">Création de bassins et de fontaines</div>
                         <div class="overlay"></div>
                     </div>
                     <div class="plantation">
@@ -108,10 +164,10 @@
                 </div>
                 <div class="grp2">
                     <div class="arrosage">
-                        <img src="Images/arrosage.webp?v=1.0" alt="arrosage" 
-                            srcset="Images/arrosage.webp?v=1.0 2x, Images/arrosage.webp?v=1.0 3x"
+                        <img src="Images/toiture.webp" alt="toiture végétalisée" 
+                            srcset="Images/toiture.webp?v=1.0 2x, Images/toiture.webp?v=1.0 3x"
                              width="300" height="300">
-                        <div class="text-overlay">Installation de Systèmes d'Irrigation</div>
+                        <div class="text-overlay">Toitures Végétalisées</div>
                         <div class="overlay"></div>
                     </div>
                     <div class="éclairage">
