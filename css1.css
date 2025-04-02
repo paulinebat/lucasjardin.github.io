@@ -82,6 +82,7 @@ nav ul li a{
             padding-left: 50px;
             padding-right: 50px;
             padding-top: 10px;
+            padding-bottom: 10px;
             background-color: #ffffff;
             border: 1px solid #000000;
             text-align: center;
@@ -323,7 +324,7 @@ nav ul li a{
     }
     .témoignages{
         justify-content: center;
-        background-image: url(Images/grass.jpg);
+        background-image: url(Images/grass.webp);
         background-size: cover; /* Ajuste l'image pour qu'elle remplisse tout le conteneur */
         background-repeat: repeat;
         padding-top: 80px;
@@ -388,7 +389,7 @@ nav ul li a{
         transition: all 0.3s ease;
     }
       .contact ul a:hover {
-        text-decoration: underline; /* Ajouter un soulignement au survol */
+        text-decoration: underline;
       }
 
     .specific-icon{
@@ -438,6 +439,7 @@ nav ul li a{
   width: 200px;
   right: 0px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hidden-checkbox {
